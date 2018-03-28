@@ -1,7 +1,9 @@
 import cv2 
 import numpy as np
 
-img = cv2.imread("cross.jpg",0)
+Filename = "cross.jpg"
+
+img = cv2.imread(Filename,0)
 
 h = img.shape[0]
 w = img.shape[1]
